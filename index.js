@@ -13,7 +13,7 @@ app.use(cors());
 
 const MONGODB_URI =
   process.env.MONGODB_URI ||
-  "mongodb+srv://zainali:ihaveinsomnia@fullstackopencluster.2tzqhuw.mongodb.net/?retryWrites=true&w=majority&appName=FullstackopenCluster";
+  "mongodb+srv://zainali:${password}@fullstackopencluster.2tzqhuw.mongodb.net/?retryWrites=true&w=majority&appName=FullstackopenCluster";
 const PORT = process.env.PORT || 3001;
 
 mongoose
